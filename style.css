@@ -1,29 +1,88 @@
 body{
-    
-
+  max-width:  1400px;
 }
 header{
-   background-color: black;
-    color: white;
-    text-align: center;
-   
-   
-   
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  border-radius: 8px ;
+}
+header h1{
+ padding-top: 40px ;
+ margin-bottom: 0px;
+ font-size: 98px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+  padding-bottom: 40px;
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2>a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 main{
-    display: flex;
-    flex-direction: column;
-   
-
-    background-image: url("img/load.jpeg");
-   height: 100vh;
-   background-repeat: no-repeat;
-   background-size: contain; 
-    
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+section.normal>p{
+  font-size: larger;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+ 
+section.imagem{
+  background-color: rgba(0, 0, 0, 0.801);
+  background-image: url("img/folhas.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-  h2>a{
-    text-decoration: none;
-    color: white;
-    font-size: 35px;
+section.imagem2>p{
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  margin-right: 50%;
+  display: inline-block;
+  font-size: larger;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+section.imagem2{
+  background-color: rgba(0, 0, 0, 0.801);
+  background-image: url("img/load.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: -10px -10px;
+}
+section.imagem>p{
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  margin-right: 50%;
+  display: inline-block;
+  font-size: larger;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+  background-color: black;
+  border-radius: 7px;
+}
+footer p {
+
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
